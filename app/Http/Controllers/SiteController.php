@@ -12,7 +12,6 @@ class SiteController extends Controller
     {
         $dishes = Dish::where('show', true)->get();
         $categories = Category::with('dishes')->get();
-//        dd($categories);
         return view('components.frontend.index', compact('dishes', 'categories'));
     }
 
