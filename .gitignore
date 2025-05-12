@@ -1,0 +1,18 @@
+# Laravel
+/vendor/
+/node_modules/
+/public/storage
+.env
+.env.*
+/storage/*
+/bootstrap/cache/*
+
+# Docker
+.docker/
+docker-compose.yml
+*.log
+
+# Ignore IDEs
+.idea/
+.vscode/
+.phpunit.result.cache
